@@ -1,4 +1,4 @@
--- Created by GitHub Copilot in SSMS 
+-- Created by GitHub Copilot in SSMS.
 /*
 Creates dbo.usp_Load_Bronze_FromCsv to truncate and bulk-load multiple bronze tables from CSV files.
 Procedure is parameterized for file paths and common BULK INSERT options; it validates target tables exist and writes per-table error files.
